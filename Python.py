@@ -24,18 +24,18 @@ r = float(input('Enter Radius of circle: '))
 print("Area of Circle is: " + str(3.14*r*r))
 # #? Area of Rectangle: 
 length = float(input('Enter Length of rectangle:  '))
-bredth = float(input('Enter Breadth of rectangle: '))
+breadth = float(input('Enter Breadth of rectangle: '))
 print('Area of rectangle is: ' + str(length*bredth) + " cm square")
 # ? 5. Write a Python program that accepts the user's first and last name and prints them in reverse order with a space between them.
 first_name = str(input('Enter Your First Name: '))
 second_name = str(input('Enter your second name: '))
 print('Your name in reversed: ' + str(second_name ) + str(first_name))
 # ? 6. Write a Python program that accepts a sequence of comma-separated numbers from the user and generates a list and a tuple of those numbers.
-# ? guseesing random number
+# ? guessing a random number
 r_nun = 9
 num = int(input('Enter a Number from 1-10'))
 if num == r_nun:
-    print('You got it right')
+    print('You got it right)
 else:
     print('Try 1 more time')
 # ? Write a Python program that accepts a sequence of comma-separated numbers from the user and generates a list and a tuple of those numbers.
@@ -49,7 +49,7 @@ print(tuple)
 # ! print(file_name)
 # ! f_extns = file_name
 # ?Write a Python program to display the first and last colors from the following list.
-color_list = ["Red","Green","White" ,"Black"]
+color_list = ["Red", "Green", "White", "Black"]
 color_list = ["red", "green", "blue"]
 print((color_list[0], color_list[2]))
 color_input = input('Enter Color in this list')
@@ -61,11 +61,14 @@ print('The examination will start from:%i / %i / %i '%exam_date)
 # The placeholders %i are used to format the integers.
 #  ? Write a Python program that accepts an integer (n) and computes the value of n+nn+nnn.
 # ?Sample value of n is 5
-# ?Expected Result : 615
+#? Expected Result: 615
 # ! typecasting?
 a = int(input('Enter a number'))
 n1 = int("%s"%a)
-n2 = int("%s%s"%(a,a))
-n3 = int("%s%s%s"%(a,a,a))
+n2 = int("%s%s"%(a, a))
+n3 = int("%s%s%s"%(a, a, a))
 print(n1+n2+n3)
-#* %s specifically is used to perform concatenation of strings together. It allows us to format a value inside a string. It is used to incorporate another string within a string. It automatically provides type conversion from value to string.
+#* %s specifically is used to perform the concatenation of strings together. It allows us to format a value inside a string. It is used to incorporate another string within a string. It automatically provides type conversion from value to string.
+
+
+ASSIGNMENT 2
